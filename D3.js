@@ -114,7 +114,7 @@ let charactersNames = [];
 */
 
 for (let i = 0; i < starWarsCharacters.length; i++) {
-  charactersNames += starWarsCharacters[i].name + " ";
+  charactersNames += starWarsCharacters[i].name + ", ";
 }
 console.log(charactersNames);
 
@@ -125,7 +125,7 @@ let femaleCharacters = [];
 
 for (i = 0; i < starWarsCharacters.length; i++) {
   if (starWarsCharacters[i].gender === "female")
-    femaleCharacters += starWarsCharacters[i].name;
+    femaleCharacters += starWarsCharacters[i].name + ", ";
 }
 console.log(femaleCharacters);
 
